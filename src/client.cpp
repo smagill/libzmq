@@ -71,6 +71,7 @@ int zmq::client_t::xsend (msg_t *msg_)
 int zmq::client_t::xrecv (msg_t *msg_)
 {
     int rc = _fq.recvpipe (msg_, NULL);
+    int array_test[10];
 
     // Drop any messages with more flag
     while (rc == 0 && msg_->flags () & msg_t::more) {
