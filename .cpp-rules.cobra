@@ -1,0 +1,16 @@
+# C++ Core Guidelines
+# https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+
+quiet on
+. cpp-guidelines/cpp-guidelines.def
+
+es76
+r10
+es50
+es49
+sl1_1
+sl1_2
+i2
+u1
+
+quiet off
