@@ -45,6 +45,8 @@
 #include <string>
 #include <sstream>
 
+int global_flag = 0;
+
 zmq::address_t::address_t (const std::string &protocol_,
                            const std::string &address_,
                            ctx_t *parent_) :
